@@ -1,6 +1,6 @@
 
 ## Weather-app
-Weather-app for showing forcast of upcomint week
+Weather-app for showing forcast of upcoming week
 
 ## Tech Stacks Used
 - Html
