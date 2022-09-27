@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+}
+#searchContainer{
+    /* display: inline-block; */
+    position: relative;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+#searchbox{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    margin-top: 5px;
+    width: 770px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: large;
+    font-weight: 600;
+}
+#searchicon{
+    position: absolute;
+   right: 20px;
+   top: 20px;
+}
+#icon{
+    width: 30px;
+    height: 25px;
+}
+#citybox{
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#citybox>div:nth-child(1){
+    padding-top: 7px;
+}
+#citybox:hover{
+    cursor: pointer;
+}
+#city{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#locationtag{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+
+/* search ends here */
+
+
+
+#weeklyData{
+    /* border: 2px solid gray; */
+    display: flex;
+    /* border: 1px solid black; */
+    height: 250px;
+    /* overflow: scroll; */
+    border-radius: 5px;
+    scrollbar-width: 1px;
+} 
+
+#oneDay{
+    box-sizing: border-box;
+    text-align: center;
+    /* border: 1px solid red; */
+    font-weight: 700;
+    width: 115px;
+    padding: 10px;
+}
+
+#oneDay>img{
+    width: 40px;
+}
+
+
+
+
+

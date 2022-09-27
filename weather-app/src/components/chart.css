@@ -1,0 +1,75 @@
+
+#tempbox{
+    width: 130px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#tempbox>img{
+    width: 50px;
+}
+#chartsContainer{
+    margin-top: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#pressHumid{
+    margin-top: 20px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#pressHumid>div{
+    padding-right: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 390px;
+    background-color:#dcf0ff;
+}
+#pressHumid>div>p:nth-child(1){
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+#pressHumid>div>p:nth-child(2){
+    margin-top: 0px;
+}
+
+#Sunrisesunset{
+
+    box-sizing: border-box;
+    /* padding: 10px; */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+#Sunrisesunset>div>p:nth-child(1){
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+#Sunrisesunset>div>p:nth-child(2){
+    margin-top: 0px;
+}
+#sunsetimg{
+    /* margin-top: 20px; */
+    width: 800px;
+    /* border: 1px solid black; */
+}
+#set1{
+    margin-left: 10px;
+}
+#set{
+    margin-left: 650px;
+}
+#weeklyData>div{
+    margin-top: 5px;
+    height: 250px;
+}
+
+#weeklyData>div:nth-child(1){
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+}

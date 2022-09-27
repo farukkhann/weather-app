@@ -1,0 +1,9 @@
+.App{
+    /* border: 1px solid rebeccapurple; */
+    margin: auto;
+    display: flex;
+}
+.App>div{
+    /* border: 1px solid red; */
+    margin: auto;
+}
